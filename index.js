@@ -38,7 +38,7 @@ function pickAndSubstitute(data) {
   var subStart = statusToUse.toLowerCase().indexOf("when") + 5;
   // TODO: Truncate at end of sentence or line
   // TODO: Replace ending with : or ... or random emoji
-  var textToUse = "mfw " + statusToUse.slice(subStart).replace(/ \#[A-z1-9]+/g, "");
+  var textToUse = "mfw " + statusToUse.slice(subStart).replace(/ \#[A-z1-9]+|https:\S+/g, "");
 
   return textToUse;
 }
