@@ -1,0 +1,31 @@
+{
+  "name": "mfw_sh",
+  "version": "1.0.0",
+  "description": "a twitter bot",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.7.0",
+    "twit": "^2.2.3",
+    "wordfilter": "^0.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BooDoo/mfw.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "node",
+    "livecode"
+  ],
+  "author": "Joel McCoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BooDoo/mfw/issues"
+  },
+  "homepage": "https://github.com/BooDoo/mfw#readme"
+}
