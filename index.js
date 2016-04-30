@@ -55,7 +55,7 @@ function searchFace() {
 }
 
 function composeTweet(text, url) {
-  return text + " " + url;
+  return _.unescape(text) + " " + url;
 }
 
 var text = phraseSearch(['"i love when"', '"i hate when"']);
