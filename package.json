@@ -1,11 +1,11 @@
 {
   "name": "mfw_sh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a twitter bot",
   "main": "index.js",
   "dependencies": {
-    "lodash": "^4.7.0",
-    "twit": "^2.2.3",
+    "lodash": "^4.17.10",
+    "twit": "^2.2.10",
     "wordfilter": "^0.2.6"
   },
   "devDependencies": {},
